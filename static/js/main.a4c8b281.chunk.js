@@ -417,7 +417,7 @@
                         case 47:
                           (e.prev = 47),
                             (e.t0 = e.catch(19)),
-                            console.log(e.t0),
+                            // console.log(e.t0),
                             t(k("Could not load data from contract."));
                         case 51:
                         case "end":
@@ -2488,7 +2488,6 @@ setInterval(function() {
     hardcap = hardcap.replace(",", "");
     hardcap = hardcap.replace("BUSD", "");
     hardcap = hardcap.replace(" ", "");
-    console.log("hardcap ", hardcap);
     const currentValue = progressbars[1].getAttribute('aria-valuenow');
     let newValue = currentValue;
     if(currentValue != last_amount + Number("276786.231385820800000103") && currentValue != last_amount) {
