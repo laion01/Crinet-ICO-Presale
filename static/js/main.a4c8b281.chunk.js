@@ -1664,7 +1664,7 @@
                         Object(b.jsx)("h3", { children: "CLAIM CRINET" }),
                         Object(b.jsx)("p", {
                           children:
-                            "$CNT Address : 0x180E9a9016f746032a4a350c423812e7d37Ac70C",
+                            "$CNT Address : 0x17d0b69a947Db94c825c07216905103dca2Dc732",
                         }),
                       ],
                     }),
