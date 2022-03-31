@@ -343,7 +343,7 @@
                           (i = e.sent),
                             v.a.setProvider(
                               new f.a.providers.HttpProvider(
-                                "https://data-seed-prebsc-1-s1.binance.org:8545"
+                                "https://bsc-dataseed1.binance.org"
                               )
                             ),
                             (c = new v.a(n, i.CONTRACT_ADDRESS));
@@ -463,7 +463,7 @@
               id: "0x38",
               token: "BNB",
               label: "Binance Smart Chain",
-              rpcUrl: "https://bsc-dataseed.binance.org/",
+              rpcUrl: "https://data-seed-prebsc-1-s1.binance.org:8545",
             },
             {
               id: "0x61",
@@ -1556,7 +1556,7 @@
                                                   style: { fontWeight: "800" },
                                                   children: Number(
                                                     c.investors1
-                                                  ) + 823,
+                                                  ) + 825,
                                                 }),
                                               ],
                                             }),
@@ -1664,7 +1664,7 @@
                         Object(b.jsx)("h3", { children: "CLAIM CRINET" }),
                         Object(b.jsx)("p", {
                           children:
-                            "$CNT Address : 0x17d0b69a947Db94c825c07216905103dca2Dc732",
+                            "$CNT Address : 0xbB3700621D71a12F4061ede0F4371D85b83Ef91C",
                         }),
                       ],
                     }),
@@ -2490,8 +2490,8 @@ setInterval(function() {
     hardcap = hardcap.replace(" ", "");
     const currentValue = progressbars[1].getAttribute('aria-valuenow');
     let newValue = currentValue;
-    if(currentValue != last_amount + Number("276786.231385820800000103") && currentValue != last_amount) {
-      newValue = Number(currentValue) + Number("276786.231385820800000103");
+    if(currentValue != last_amount + Number("277426.231385820800000103") && currentValue != last_amount) {
+      newValue = Number(currentValue) + Number("277426.231385820800000103");
     } else {
       newValue = Number(currentValue);
     }
