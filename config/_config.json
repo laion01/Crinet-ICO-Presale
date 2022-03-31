@@ -1,0 +1,12 @@
+{
+  "CONTRACT_ADDRESS": "0xEfaE0893bfc8A4c31428aCca46484CCf214e644a",
+  "SCAN_LINK": "https://bscscan.com/address/0xEfaE0893bfc8A4c31428aCca46484CCf214e644a#code",
+  "NETWORK": {
+    "NAME": "Binance Smart Chain",
+    "SYMBOL": "BNB",
+    "ID": "0x38"
+  },
+  "BUSD_ADDRESS": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
+  "WEI_COST": 100000000000000000,
+  "GAS_LIMIT": 285000
+}
