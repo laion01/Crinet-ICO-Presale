@@ -5,4 +5,4 @@ Original project was React.js and this is Build version.
 
 Live link here : https://ico.crinet.io/
 
-I've updated this build version without vue.js project.
+I've updated this build version without react.js project.
